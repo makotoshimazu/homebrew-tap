@@ -1,26 +1,26 @@
 class GitIgnore < Formula
   desc "Append templates from github/gitignore to a local .gitignore file"
   homepage "https://github.com/makotoshimazu/git-ignore"
-  version "0.1.1"
+  version "0.1.2"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.1/git-ignore_0.1.1_darwin_arm64.tar.gz"
-      sha256 "4a0513be6eb11172e95a565573bc3d320e197475f3daba8264161495596b8f7d"
+      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.2/git-ignore_0.1.2_darwin_arm64.tar.gz"
+      sha256 "00efba5c75118147b54f2bee4a0c8048815c8e0b8c09a6f6087be150c785bca5"
     else
-      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.1/git-ignore_0.1.1_darwin_amd64.tar.gz"
-      sha256 "ff944ace833dceba837ea2d6b54e0b437dc47ed9d29ae170ca42cc23a6d680ec"
+      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.2/git-ignore_0.1.2_darwin_amd64.tar.gz"
+      sha256 "3554e60f0c35f3404b7feccd408b0aec8db732ee40e1f7f6930d8f7d7d7e126f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.1/git-ignore_0.1.1_linux_arm64.tar.gz"
-      sha256 "8170513a75779ba508c02b61d5c0fa5ebc54f73f17b9100c1e314af9beefcf18"
+      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.2/git-ignore_0.1.2_linux_arm64.tar.gz"
+      sha256 "c431baf5f0336cdea34ef0f946dd0c50a96e99647c556e2dd7871d5bd40c79d5"
     else
-      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.1/git-ignore_0.1.1_linux_amd64.tar.gz"
-      sha256 "03ae9964294f04f0a2f17259cc1ff748062713edfb04c2b96c54f16fe1d84c07"
+      url "https://github.com/makotoshimazu/git-ignore/releases/download/v0.1.2/git-ignore_0.1.2_linux_amd64.tar.gz"
+      sha256 "386207893b90fe86c0c9135739714a860e7d7b4f19be483d3179980dc3641d71"
     end
   end
 
