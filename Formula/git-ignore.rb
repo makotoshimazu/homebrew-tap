@@ -26,6 +26,7 @@ class GitIgnore < Formula
 
   def install
     bin.install "git-ignore"
+    generate_completions_from_executable(bin/"git-ignore", "completion", shells: [:zsh])
   end
 
   test do
